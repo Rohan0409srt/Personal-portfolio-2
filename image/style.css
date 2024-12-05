@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+
+}
+header{
+    height: 120px;
+    width: 100%;
+    background-color: blueviolet;
+
+}
+.project_name{
+    margin-left: 10px;
+    color: white;
+    float: left;
+}
+ .fa-envelope{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* #icon{
+    font-size: 0.7rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem; */
+
+/* } */
+.top_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+.menu_name{
+    margin-top: 35px;
+    margin-right: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    color: white;
+}
+.menu_name:hover{
+    font-weight: 800;
+    text-decoration: underline;
+}
+/* **********about me********** */
+.about{
+     background-color: black;
+    height: 100vh;
+    width: 100%;
+    /* margin-top: 5px; */
+     background-image: url(./image/Myimg1.jpg); 
+     background-size: cover;
+    background-position: center;
+}
+ #aboutme{
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-right: 40%;
+    font-size: 50px;
+    font-weight: 750;
+    
+}
+span{
+    color: red;
+}
+ .blank{
+ color: white;
+ display: flex;
+ align-items: center;
+}
+**********skills*************
+ .skills_section{
+    background-color: black;
+    /* margin-top: 5px; */
+    color: black;
+} 
+#heading{
+    background-color: black;
+    color: blueviolet;
+    display: flex;
+    font-weight: 900;
+}
+.all_skills{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    background-color: black;
+} 
+.skill{
+    border: 5px solid rgb(176, 114, 114);
+    background-color: rgb(231, 236, 241);
+    display:block;
+    text-align: center;
+    margin: 60px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    box-shadow: 0 8px 20px rgb(161, 102, 102);
+    height: 200px;
+}
+.skill img{
+    height: 35px;
+    align-items: center;
+}
+.js{
+    height: 60px;
+}
+.skill h6 {
+    align-items: center;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+  } 
+  
+  .skill p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-top: 20px;
+  } 
+
+
+#skills p{
+    font-size: 20px;
+    color: rgb(162, 34, 34);
+    margin-right: 20px;
+    font-weight: 600;
+}
+#python{
+    margin-left: 3px;
+}
+ 
+/* ********projects********* */
+.project_section{
+    height: 450px;
+    background-color: black;
+    color: white;
+}
+#project_head{
+    font-size: 30px;
+    font-weight: 800;
+    color:rgb(109, 19, 193) ;
+
+}
+.project_list{
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.project_list .info{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#project_name{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+}
+/* *********Recomondation section****************** */
+#recommendations{
+    background-color: black;
+    color: aliceblue;
+
+}
+#rec_head{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: 800;
+}
+.all_recommendations {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 20px; 
+    /* background-color: black; */
+  }
+  .recommendation {
+    font-style: italic;
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    border:1px solid red;
+    font-size: 18px;
+    height:150px;
+    color: black;
+  }
+  .recommendation span {
+    color: #7600bc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+/* 
+#all_recomandations{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: fit-content;
+    color: aliceblue;
+    margin-top: 5px;
+    display: flex;
+}
+#head_rec{
+    font-size: 30px;
+    font-weight: 800;
+    color:rgb(109, 19, 193) ;
+    margin-top: 5px;
+    
+}
+.Recomandation{
+    height: 250px;
+    width: 350px;
+    border: 5px solid rgb(210, 93, 9);
+    margin-top: 100px;
+    margin-right: 100px;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+
+}
+.Rec p{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+/* *****leave recomondation********** */
+.add_Recommendation{
+ height: fit-content;
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+}
+#head{
+    margin-top: 10%;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+}
+.form .name{
+    color: black;
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 28%;
+    
+
+}
+.form .message{
+    height: 200px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: start;
+    border-radius: 8px;
+    
+}
+.btn_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color:aliceblue;
+    border-radius: 5px;
+    
+}
+button{
+    height: fit-content;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 160px;
+}
+button:hover{
+    background-color: orange;
+}
+.icon_button{
+    background-color: black;
+    color:white;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+}
+.icon_button:hover{
+    background-color: orange;
+    /* box-sizing: border-box; */
+    border: 2px solid orange;
+}
+.popup {
+    width:400px;
+    background-color: #e8bcf0;
+    border-radius: 3mm;
+    top: 50%;
+    left:35%;
+    /* transform: translate(-50%,-50%) scale(0.1); */
+    text-align: center;
+    position: fixed;
+    padding: 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+  }
+  .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+  }
+  .pop i{
+    size: 25px;
+  }
+  .popup button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%;
+  }
+  .popup button:hover {
+    background-color: #fff;
+    border: 2px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+  }

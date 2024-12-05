@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header>
+        <div class="project_name" id="Home">
+            <h1>Rohan Talware </h1><br>
+            <i class="fa-solid fa-envelope" id="icon" > rohantalware123@gmail.com</i><br>
+            <i class="fa-solid fa-phone" id="icon">7263043484</i>
+        </div>
+        <div class="top_menu">
+            <a href="#about_me" class="menu_name">About Me</a>
+            <a href="#skill" class="menu_name">Skills</a>
+            <a href="#project" class="menu_name">Projects</a>
+            <a href="#Recommendation" class="menu_name">Recommendation</a>
+
+        </div>
+    </header>
+    <!-- ********about me*********** -->
+    <section class="about" id="about_me">
+        <div class="about_me">
+            <div>
+                <h1 class="blank"></h1>
+                <p class="name">Hello ! I'm &nbsp;  <span>  Rohan Talware </span> </p>
+                <p id="aboutme">A passionate and detail-oriented <span>web developer </span> with a strong foundation in HTML, CSS, JavaScript, and modern web technologies. Eager to apply problem-solving skills and creativity to build responsive, user-friendly websites. Recently completed hands-on projects and coursework, focusing on front-end development. and web optimization. Committed to continuous learning and growth in the tech field.</p>
+               </div>
+        </div>
+     </section  >
+     <!-- **********Skiils************ -->
+     <section class="skills_section" id="skill">
+        <h1 id="heading">Skills</h1>
+        <div style="clear: both;" ></div>
+
+        <div class="all_skills">
+            <div class="skill">
+                <img src="./image/html.png" width="35px">
+                <h6>HTML</h6>
+                <p>6 Month Experience</p>
+                </div>
+
+            <div class="skill">
+             <img src="./image/css.png" width="35px" alt=""> 
+             <h6>CSS</h6>
+             <p>6 Month Experience</p>  
+            </div>
+
+            <div class="skill">
+             <img class="js" src="./image/java script.png" width="40px" alt=""> 
+             <h6>JavaScript</h6>
+             <p>2 Month Experience</p>  
+            </div>
+
+            <div class="skill">
+                <img   src="./image/python.png" width="35px" alt="">
+                <h6>Python</h6>
+                <p id="python"> 1 Year Experience In Python</p>
+            </div>
+            
+          </div>
+        </section>
+     <!-- *******Projects*********** -->
+      <section class="project_section" id="project">
+        <div class="project">
+            <h1 id="project_head">Projects</h1>
+        </div>
+        <div class="project_list">
+            <main>
+                <ul>
+                    <li id="project_name">Amazon.in Clone</li>
+                    <ul>
+                        <li class="info">This clone is built using HTML and CSS and aims to replicate the core features and user experience of the original Amazon website. <br>It has a similar layout and structure, including a header, main content section, and footer. .</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li id="project_name">Landing Page</li>
+                    <ul>
+                        <li class="info">A housekeeping facility landing page should clearly communicate the services offered, target audience, and key benefits of using their cleaning expertise, <br>while including a strong call-to-action to encourage potential clients to book a service or request a quote.
+                            using HTML,CSS and JS.
+                        </li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li id="project_name">calculator</li>
+                    <ul>
+                        <li class="info">a simple calculator is a great way to practice and improve your web development skills. By understanding how HTML, CSS, and JavaScript work together, <br>you can create more complex and functional web applications in the future.</li>
+                    </ul>
+                </ul>
+            </main>
+        </div>
+      </section>
+      <!-- **********Recomandation*********** -->
+       <section id="recommendations">
+        <h1 id="rec_head">Recomandation</h1>
+        <div style="clear:both;"></div>
+        <div class="all_recommendations" id= "all_recommendations">
+            <div class="recommendation">
+                <span> &#8220;</span>
+                Rohan consistently demonstrated dedication, initiative, collaborative spirit and played a pivotal role in overcoming challenges, making them a valuable asset to any team.
+                <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span> &#8220;</span>
+                I wholeheartedly recommend Rohan for any role requiring exceptional attention to detail, strong analytical skills, and a collaborative spirit. Throughout our time working together on a Project, He consistently exceeded expectations by identifying key data insights, proactively resolving complex issues.
+                <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span> &#8220;</span>
+                I wholeheartedly recommend Rohan for their exceptional performance on our recent project. Their technical expertise, problem-solving abilities, were instrumental in achieving a successful launch on time and within budget.
+                <span>&#8221;</span> 
+            </div>
+        </div>
+       </section>
+       <!-- *********new recommendation************** -->
+      <section class="add_Recommendation" id="Recommendation">
+        <div>
+            <div class="head_rec">
+                <h1 id="head">Leave a Recomandation</h1>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="[your Name]" class="name">
+                <textarea id="new_recommendation" name="message" rows="4" required placeholder="Write your message here..." class="message"></textarea>
+            </div>
+            <div class="btn_submit">
+                <button id="recommend_btn" onclick="addRecommendation()" onclick="openPopup()">Submit</button>
+            </div>
+        </div>
+      </section>
+      <!-- *********home icon********** -->
+       <div class="icon_button">
+        <a href="#Home">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+          </a>
+       </div>
+       <div class="popup flex_center" id="popup" >
+        <i class="fa-regular fa-square-check"></i>
+        <h3>Thanks for leaving a recommendation !</h3>
+        <button onclick="closePopup()" >Ok</button>
+       </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
